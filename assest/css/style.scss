@@ -1,0 +1,49 @@
+$header_color: #eeec;
+$nav_height : 67px;
+$nav_link_color : gray;
+// Logo height and width
+.desktop_KYWDO_nav{
+//  background-color: $header_color;   
+//  height: $nav_height;
+}
+.nav-item .nav-link{
+   color: $nav_link_color; 
+}
+// Carsoula custom style:
+$content_box :content-box;
+$zero_flex : 0;
+$one_flex : 0;
+$auto_flex : 0;
+$width : 9px;
+$height: 9px;
+$padding_zero : 0px;
+$marginRgiht:3px;
+$zindex : -999px;
+$pointer: pointer;
+$white_background : #979696;
+$padding_box : padding-box;
+$border_zero : 0px;
+$opacity : .5;
+$border_radius  : 50%;
+$second : .6s;
+$ease : ease;
+
+.carousel-indicators button {
+box-sizing: $content_box !important;
+flex: $zero_flex $one_flex $auto_flex;
+width: $width !important;
+height: $height !important;
+padding: $padding_zero !important;
+margin-right: $marginRgiht !important;
+margin-left: $marginRgiht !important;
+text-indent: $zindex !important;
+cursor: $pointer !important;
+background-color: $white_background !important; 
+background-clip: $padding_box !important;
+border: $border_zero !important;
+/* border-top: 10px solid transparent; */
+/* border-bottom: 10px solid transparent; */
+opacity: $opacity !important;
+transition: opacity $second $ease !important;
+border-radius: $border_radius !important;
+}
